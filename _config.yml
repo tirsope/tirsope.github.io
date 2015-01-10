@@ -1,15 +1,69 @@
-# Site settings
-title: Tirso Peralta
-email: tperalta@pm-sol.com
-description: > # this means to ignore newlines until "baseurl:"
-  I'm an Electronic Engineer, professor at UCV (Universidad Central de Venezuela) who loves programming.
-  I've developed webapps with php and mobile apps for Android and iOS.
-  On my way to learn ruby and ruby on rails.
+# SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tirsope.me" # the base hostname & protocol for your site
-twitter_username: tirsope
-github_username:  tirsope
+url: "http://example.com" # the base hostname & protocol for your site
 
-# Build settings
+# THEME-SPECIFIC CONFIGURATION
+theme:
+  # Meta
+  title: Tirso Peralta
+  avatar: avatar.png
+  description: > # this means to ignore newlines until "baseurl:"
+      I'm an Electronic Engineer, professor at UCV (Universidad Central de Venezuela) who loves programming.
+      I've developed webapps with php and mobile apps for Android and iOS.
+      On my way to learn ruby and ruby on rails.
+  
+  # Header and footer text
+  header_text: >
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     
+     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+  footer_text: >
+   Powered by <a href="http://jekyllrb.com">Jekyll</a>. Tirso Peralta
+  
+  # Icons
+  rss: false
+  email_address: "tirso.peralta@gmail.com"
+  behance:
+  bitbucket: 
+  dribbble: 
+  facebook: "tirso.peralta"
+  flickr: 
+  github: "tirsope"
+  google_plus: 
+  instagram: "tirsope"
+  linkedin:  "http://linkedin.com/in/tirsoperalta"
+  pinterest: 
+  reddit: 
+  soundcloud: 
+  stack_exchange:  # full URL
+  steam: 
+  tumblr: 
+  twitter: "tirsope"
+  wordpress: 
+  youtube: 
+  
+  # Scripts
+  google_analytics: # tracking id, e.g. "UA-000000-01"
+  disqus_shortname:
+  
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Continue reading"
+  
+  # Colors, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+  
+# BUILD SETTINGS
 markdown: kramdown
 highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed
