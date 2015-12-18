@@ -5,46 +5,46 @@ url: "http://tirsope.me" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Tirso Peralta
+  title: Tirso Peralta | Web Developer
   avatar: tplogo.png
   description: > # this means to ignore newlines until "baseurl:"
-      I'm an Electronic Engineer, professor at UCV (Universidad Central de Venezuela) who loves programming.
+      I'm an Electronic Engineer who loves programming.
       I've developed webapps with php and mobile apps for Android and iOS.
       On my way to learn ruby and ruby on rails.
-  
+
   # Header and footer text
   header_text: >
      Today is a great day to learn something new.
-     
+
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a>. Tirso Peralta
-  
+
   # Icons
   rss: false
   email_address: "tirso.peralta@gmail.com"
   behance:
-  bitbucket: 
-  dribbble: 
+  bitbucket:
+  dribbble:
   facebook:
-  flickr: 
+  flickr:
   github: "tirsope"
-  google_plus: 
+  google_plus:
   instagram: "tirsope"
   linkedin:  "http://linkedin.com/in/tirsoperalta"
-  pinterest: 
-  reddit: 
-  soundcloud: 
+  pinterest:
+  reddit:
+  soundcloud:
   stack_exchange:  # full URL
-  steam: 
-  tumblr: 
+  steam:
+  tumblr:
   twitter: "tirsope"
-  wordpress: 
-  youtube: 
-  
+  wordpress:
+  youtube:
+
   # Scripts
   google_analytics: "UA-1833348-5"# tracking id, e.g. "UA-000000-01"
   disqus_shortname: "tirsope"
-  
+
   # Localization strings
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
@@ -52,14 +52,14 @@ theme:
   str_next: "Next"
   str_prev: "Prev"
   str_continue_reading: "Continue reading"
-  
+
   # Colors, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
 
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"
-  
+
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: pygments
